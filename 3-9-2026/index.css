@@ -1,0 +1,64 @@
+h1{
+  color: blue;
+  background-color: black;
+   padding: 10px;
+  margin: 10px; 
+  border: 2px solid red;
+   
+  border-radius: 25px;
+  text-align: center;
+}
+.same{
+    color: rgb(76, 13, 13);
+    background-color: rgba(80, 173, 113, 0.455);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(147, 40, 119);
+    border-radius: 25px;
+    text-align: center;
+}
+
+#google-link{
+    color: rgb(255, 255, 255);
+    background-color: rgb(205, 19, 134);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(23, 156, 56);
+    border-radius: 25px;
+    text-align: center;
+   
+}
+
+#page{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    text-align: center;
+   
+}
+
+#image{
+    border: 2px solid rgb(30, 3, 3);
+    border-radius: 25px;
+    position: fixed;
+    top: 1px;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(191, 27, 90);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    text-align: center;
+    object-fit: cover;  
+     overflow: hidden;
+   width: 15rem;   /* 15 * 16px = 240px */
+    height: 10rem;  /* 10 * 16px = 160px */
+    padding: 1rem;  /* Charon taraf 16px padding */
+    margin: 2rem auto;
+    background-color: pink;
+
+}
