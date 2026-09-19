@@ -1,4 +1,4 @@
-h1{
+/* h1{
   color: blue;
   background-color: black;
    padding: 10px;
@@ -56,9 +56,63 @@ div{
     object-fit: cover;  
      overflow: hidden;
    width: 15rem;   /* 15 * 16px = 240px */
-    height: 10rem;  /* 10 * 16px = 160px */
-    padding: 1rem;  /* Charon taraf 16px padding */
-    margin: 2rem auto;
-    background-color: pink;
+    /* height: 10rem;  /* 10 * 16px = 160px */
+    /* padding: 1rem;  /* Charon taraf 16px padding */
+    /* margin: 2rem auto;
+    background-color: pink; */
 
+
+ 
+/* .flex-container {
+    display: flex;         
+    padding: 20px;
+    background-color: #ffd1d1; 
 }
+ 
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff4757; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 6px;
+} */ 
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* FLEX CONTAINER (Parent) */
+.flex-container {
+  display: flex;             /* Flexbox activate karta hai */
+  flex-direction: row;       /* Items ko horizontal row mein set karta hai */
+  flex-wrap: wrap;           /* Space kam hone par boxes next line mein chale jayenge */
+   /* Horizontal alignment aur spacing */
+  align-items: baseline;       /* Vertical alignment */
+  gap: 15px;                 /* Boxes ke darmiyan fasla */
+   
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #931a1a;
+  min-height: 300px;
+}
+
+/* FLEX ITEMS (Children) */
+.box {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;         /* Text ko vertically center align karne ke liye */
+  width: 100px;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+ 
