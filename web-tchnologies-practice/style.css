@@ -1,0 +1,37 @@
+h1 {
+  color: blue;
+  font-family: Arial, sans-serif;
+   
+text-align: center;
+}
+h2 {
+  color: green;
+}
+h3 {
+  color: purple;
+}
+h4 {
+  color: orange;
+}
+h5 {
+  color: red;
+}
+h6 {
+  color: brown;
+}
+
+p {
+  color: rgb(185, 31, 139);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: left;
+
+}
+
+pre.pretag {
+  background-color: #09aad2;
+  padding: 10px;
+  border: 10px solid #d46c6c;
+  font-family: monospace;
+  
+}
