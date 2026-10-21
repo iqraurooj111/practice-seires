@@ -1,0 +1,207 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My HTML and CSS Assignment</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <h1>Welcome to My Website</h1>
+  <h2>About This Site</h2>
+  <h3>Our Mission</h3>
+  <h4>Our Core Values</h4>
+  <h5>Contact Us</h5>
+  <h6>Follow Us on Social Media</h6>
+  <hr>
+
+  <p class="text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+    veniam, sint dolore soluta quos explicabo. Delectus qui error aspernatur
+    quis eos odit, architecto molestiae, nostrum, esse harum laboriosam rem
+    assumenda.
+  </p>
+  <br>
+  <p class="text">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+    veniam, sint dolore soluta quos explicabo. Delectus qui error aspernatur
+    quis eos odit, architecto molestiae, nostrum, esse harum laboriosam rem
+    assumenda.
+  </p>
+  <hr>
+
+  <h2>Pre Tag</h2>
+  <pre>
+I am using the pre tag      to display text
+    exactly as it is written in the code.
+  </pre>
+  <hr>
+
+  <h2>Text Formatting</h2>
+  <p>
+    <b>Bold text</b>
+    <i>Italic text</i>
+    <u>Underlined text</u>
+    <q>Quoted text</q>
+    <mark>Marked text</mark>
+    <small>Small text</small>
+    <big>Big text</big>
+    <del>Deleted text</del>
+    <ins>Inserted text</ins>
+  </p>
+  <p>H<sub>2</sub>O and x<sup>2</sup></p>
+  <p>This is line one.<br>This is line two.</p>
+  <hr>
+
+  <h2>Links</h2>
+  <a href="https://www.google.com" target="_blank">Google</a>
+  <br>
+  <a href="https://www.github.com" target="_blank">GitHub</a>
+  <br>
+  <a href="https://www.youtube.com" target="_blank">YouTube</a>
+  <hr>
+
+  <h2>Images</h2>
+  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400" alt="Mountain lake" width="300" height="200">
+  <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400" alt="Sunrise" width="300" height="200">
+  <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=400" alt="Green valley" width="300" height="200">
+  <hr>
+
+  <h2>Lists</h2>
+  <h3>Unordered List</h3>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <h3>Ordered List</h3>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+  <hr>
+
+  <h2>Table</h2>
+  <table border="1">
+    <tr>
+      <th>Roll No</th>
+      <th>Name</th>
+      <th>Subject</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Ali</td>
+      <td>HTML</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Ahmed</td>
+      <td>CSS</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td colspan="3">Total</td>
+      <td>175</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h2>Video</h2>
+  <video width="400" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  </video>
+  <br>
+  <iframe width="400" height="250" src="https://www.youtube.com/embed/jNQXAC9IVRw" allowfullscreen></iframe>
+  <hr>
+
+  <h2>Audio</h2>
+  <audio controls>
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+  </audio>
+  <hr>
+
+  <h2>Scrolling Text</h2>
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    Welcome to my website! This text is scrolling.
+  </marquee>
+
+  <h2>Scrolling Image</h2>
+  <marquee behavior="scroll" direction="right" scrollamount="6">
+    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=300" alt="Scrolling image" width="200">
+  </marquee>
+
+   <h2>Iframe</h2>
+  <a href="https://en.wikipedia.org/wiki/Main_Page" target="myframe">Home</a> |
+  <a href="https://en.wikipedia.org/wiki/Computer_science" target="myframe">Department</a> |
+  <a href="https://en.wikipedia.org/wiki/Gomal_University" target="myframe">University</a>
+  <br><br>
+  <iframe name="myframe" src="https://en.wikipedia.org/wiki/Main_Page" width="600" height="400"></iframe>
+  <hr>
+
+    <h2>Form</h2>
+  <form action="https://httpbin.org/post" method="post" name="myform">
+
+    Name:
+    <input type="text" name="name" placeholder="Enter your name" maxlength="30" required autofocus>
+    <br><br>
+
+    Email:
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <br><br>
+
+    Password:
+    <input type="password" name="password" minlength="6" required>
+    <br><br>
+
+    Age:
+    <input type="number" name="age" min="10" max="60" value="18">
+    <br><br>
+
+    Date:
+    <input type="date" name="date">
+    <br><br>
+
+    Time:
+    <input type="time" name="time">
+    <br><br>
+
+    Country (readonly):
+    <input type="text" name="country" value="Pakistan" readonly>
+    <br><br>
+
+    Disabled field:
+    <input type="text" value="Cannot edit" disabled>
+    <br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female"> Female
+    <br><br>
+
+    Hobbies:
+    <input type="checkbox" name="hobby" value="cricket"> Cricket
+    <input type="checkbox" name="hobby" value="reading"> Reading
+    <input type="checkbox" name="hobby" value="coding"> Coding
+    <br><br>
+
+    City:
+    <select name="city">
+      <option value="dik">Dera Ismail Khan</option>
+      <option value="peshawar">Peshawar</option>
+      <option value="lahore">Lahore</option>
+    </select>
+    <br><br>
+
+    Message:<br>
+    <textarea name="message" rows="4" cols="30"></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
